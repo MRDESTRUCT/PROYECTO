@@ -1,61 +1,61 @@
 # Aplicación para la Automatización y Análisis de la Toma de Decisiones en PANAMÁ
 
 ### Descripción del Proyecto
-Planeamos desarrollar un Chatbot y un algoritmo que, en un sitio web, recopile información como quejas y comentarios sobre empresas. Este algoritmo, previamente entrenado, clasificará las quejas según su gravedad y categoría para ofrecer una estadística de los problemas más recurrentes.
+Este proyecto tiene como objetivo desarrollar un sistema de automatización y análisis de la toma de decisiones mediante un Chatbot y un algoritmo avanzado. El sistema recopilará información, como quejas y comentarios sobre empresas, a través de un sitio web. Utilizando técnicas de aprendizaje automático, el algoritmo clasificará las quejas según su gravedad y categoría, proporcionando estadísticas sobre los problemas más recurrentes.
 
 ### ¿Qué?
-Este sistema permitirá a las empresas recibir y gestionar el feedback de sus clientes de manera más eficiente. Al clasificar las quejas y comentarios, las compañías podrán identificar y resolver rápidamente las principales preocupaciones de sus usuarios.
+El sistema permitirá a las empresas recibir y gestionar el feedback de sus clientes de manera más eficiente. Al clasificar las quejas y comentarios, las compañías podrán identificar y resolver rápidamente las principales preocupaciones de sus usuarios.
 
 ### ¿Cómo?
-Utilizaremos Python para entrenar el algoritmo mediante técnicas de aprendizaje automático, utilizando datos históricos para afinar su precisión en la clasificación. También desarrollaremos un chatbot en este lenguaje, el cual facilitará la recolección de datos. Antes de su implementación a gran escala, se someterá a pruebas en un entorno controlado para evaluar el rendimiento y la precisión de la IA.
+Utilizaremos Python y bibliotecas especializadas en aprendizaje automático como scikit-learn y TensorFlow para entrenar el algoritmo con datos históricos. Este algoritmo será capaz de clasificar las quejas y comentarios según su gravedad y categoría. Adicionalmente, desarrollaremos un chatbot usando frameworks como Rasa o Botpress, que facilitará la recolección de datos. Se implementará un entorno de pruebas controlado para evaluar el rendimiento y precisión del sistema antes de su despliegue a gran escala.
 
 ### ¿Quién?
-Nuestro grupo está conformado por:
-- **Amilkar José Moreno**
-- **Moisés Chavarria**
+El equipo de desarrollo está conformado por:
 
-Juntos somos una dupla para el desarrollo de este proyecto, caracterizados por ser jóvenes amantes de la tecnología y el descubrimiento.
+- **Amilkar José Moreno** - Desarrollador/Investigador
+- **Moisés Chavarria** - Desarrollador/Investigador
+- **Yonathan González** - Coordinador de Equipo
 
 ### ¿Para Qué?
-Este sistema permitirá a las empresas:
+El sistema permitirá a las empresas:
 - Recibir y gestionar feedback de clientes de manera eficiente.
 - Identificar y resolver rápidamente las principales preocupaciones de sus usuarios.
+- Mejorar la calidad del servicio y la satisfacción del cliente mediante análisis detallados de las quejas y comentarios.
 
 ### ¿Cuánto?
-Se estima que el desarrollo del Chatbot y algoritmo tome alrededor de un mes, aunque el tiempo podría variar según la calidad de los datos usados en el entrenamiento. En total, esperamos que el proyecto tenga una duración de 4 a 5 meses. Dar prioridad a la experiencia del usuario es fundamental, por lo que nos enfocaremos en mejorar tanto la interfaz de experiencia (IX) como la interfaz de usuario (IU).
+Se estima que el desarrollo del Chatbot y del algoritmo tomará aproximadamente un mes, aunque el tiempo podría variar según la calidad de los datos usados en el entrenamiento. El proyecto completo, incluyendo fases de prueba y optimización, está proyectado para durar entre 4 y 5 meses. Nos enfocaremos en mejorar la experiencia del usuario (UX) y la interfaz de usuario (UI) para garantizar una interacción intuitiva y eficiente.
 
 ### ¿Dónde?
-Este proyecto puede ser implementado en diversas empresas, inicialmente en Panamá Oeste, y posteriormente en otras regiones. Puede ser aplicado en sectores como el comercio, servicios públicos y más.
+Este proyecto será implementado inicialmente en empresas de Panamá Oeste, con la posibilidad de expandirse a otras regiones. Es aplicable a diversos sectores como comercio, servicios públicos, y otros.
 
 ---
-
-## English Version
 
 # Application for Automation and Decision-Making Analysis in PANAMA
 
 ### Project Description
-We plan to develop a Chatbot and an algorithm that will collect information such as complaints and comments about companies on a website. This algorithm, previously trained, will classify the complaints according to their severity and category to provide statistics on the most recurring problems.
+This project aims to develop a decision-making automation and analysis system through a Chatbot and an advanced algorithm. The system will collect information such as complaints and comments about companies via a website. Using machine learning techniques, the algorithm will classify complaints by severity and category, providing statistics on the most recurring issues.
 
 ### What?
-This system will enable companies to receive and manage customer feedback more efficiently. By classifying complaints and comments, companies can quickly identify and resolve the main concerns of their users.
+The system will enable companies to receive and manage customer feedback more efficiently. By classifying complaints and comments, companies can quickly identify and resolve the main concerns of their users.
 
 ### How?
-We will use Python to train the algorithm using machine learning techniques, utilizing historical data to refine its accuracy in classification. We will also develop a chatbot in this language, which will facilitate data collection. Before large-scale implementation, it will be tested in a controlled environment to evaluate AI performance and accuracy.
+We will use Python along with specialized machine learning libraries such as scikit-learn and TensorFlow to train the algorithm using historical data. This algorithm will be capable of classifying complaints and comments based on their severity and category. Additionally, we will develop a chatbot using frameworks like Rasa or Botpress to facilitate data collection. A controlled testing environment will be implemented to evaluate the system's performance and accuracy before large-scale deployment.
 
 ### Who?
-Our group consists of:
-- **Amilkar José Moreno**
-- **Moisés Chavarria**
+The development team consists of:
 
-Together, we form a duo for the development of this project, characterized by being young technology enthusiasts and discoverers.
+- **Amilkar José Moreno** - Developer/Researcher
+- **Moisés Chavarria** - Developer/Researcher
+- **Yonathan González** - Team Coordinator
 
 ### Why?
-This system will enable companies to:
-- Receive and manage customer feedback efficiently.
+The system will enable companies to:
+- Efficiently receive and manage customer feedback.
 - Quickly identify and resolve the main concerns of their users.
+- Improve service quality and customer satisfaction through detailed analysis of complaints and comments.
 
 ### How Much?
-It is estimated that the development of the Chatbot and algorithm will take around a month, although the time may vary depending on the quality of the data used in training. Overall, we expect the project to take 4 to 5 months. Prioritizing user experience is essential, so we will focus on improving both the user experience (UX) and user interface (UI).
+The development of the Chatbot and algorithm is estimated to take approximately one month, although the time may vary depending on the quality of the data used for training. The entire project, including testing and optimization phases, is projected to last between 4 to 5 months. We will focus on enhancing user experience (UX) and user interface (UI) to ensure an intuitive and efficient interaction.
 
 ### Where?
-This project can be implemented in various companies, initially in West Panama, and later in other regions. It can be applied in sectors such as commerce, public services, and more.
+This project will be initially implemented in companies in West Panama, with potential expansion to other regions. It is applicable to various sectors such as commerce, public services, and more.
