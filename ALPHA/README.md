@@ -1,1 +1,1 @@
-
+En esta primera version del producto del chatbot desarrollado por Moises Chavarria se trata de una version primeriza del chatbot de analisis de opiniones en estas versiones la aplicacion, esta en fase de desarrollo por lo cual no hay tantas funcionalidades de las cuales gozara el producto final
