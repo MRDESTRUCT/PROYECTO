@@ -1,1 +1,1 @@
-
+En la Beta v1.0.0 el codigo del Chatbot recibio multiples mejoras y añadidos entre estos añadidos encontramos la inclusion de una base de datos de Sqlite para proporcionar un respaldo de la informacion proporcionada ademas de la inclusion de que el chatbot puede utilizar archivos .json para recolectar informacion de distintas paginas de internet
