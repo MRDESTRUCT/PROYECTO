@@ -23,9 +23,6 @@ En esta versión inicial del chatbot, se sientan las bases para su desarrollo fu
 - Problemas menores con el manejo de archivos que serán corregidos en versiones posteriores.
 - Funcionalidades limitadas en cuanto a la interacción y procesamiento de los comentarios.
 
-## Responsable del Desarrollo del Proyecto
-Amilkar Moreno
-
 ---
 
 # DATAPAN
@@ -53,5 +50,6 @@ In this initial version of the chatbot, the foundational features are implemente
 - Minor file handling issues that will be addressed in future versions.
 - Limited functionalities regarding comment interaction and processing.
 
-## Project Developer
-Amilkar Moreno
+---
+
+**Responsable del desarrollo del proyecto**: Amilkar Moreno.
