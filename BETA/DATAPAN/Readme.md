@@ -1,30 +1,70 @@
-# Text Classification with Naive Bayes Classifier - Beta Version
+# DATAPAN
 
-## Description / Descripción
+## Descripción
+Esta aplicación se creó en base a una necesidad que muchas empresas ignoran: conocer la opinión de su público, ya sea sobre su marca o sobre sus productos. El propósito del algoritmo es proporcionar una herramienta sencilla y efectiva para clasificar opiniones de los clientes como positivas o negativas. Esto permite a las empresas construir una mayor cercanía con su clientela, lo que a largo plazo representa una ganancia para una empresa.
 
-**English:**
-This beta version of the text classification code builds upon the previous version by adding new features and improvements. It now includes a graphical user interface (GUI) using Tkinter, allows users to analyze sentiment from text files, and incorporates additional natural language processing (NLP) functionalities such as word frequency analysis and filtering of stopwords. The results are displayed in a bar chart showing the percentage of positive and negative sentiments in the text.
+## Características
+- **Clasificación de Sentimientos:** El código está diseñado para clasificar textos como "positivos" o "negativos" utilizando un clasificador Naive Bayes.
+- **Entrenamiento con Datos Pre-etiquetados:** Utiliza un conjunto de datos pre-etiquetados almacenados en un archivo JSON para entrenar el clasificador.
+- **Interfaz Gráfica de Usuario (GUI) con Kivy:** Utiliza Kivy para proporcionar una interfaz gráfica de usuario que permite cargar archivos de texto y mostrar resultados.
+- **Visualización de Resultados:** Genera un gráfico de barras para mostrar el porcentaje de oraciones positivas y negativas en el texto analizado.
+- **Análisis de Frecuencia de Palabras:** Identifica y muestra las palabras más mencionadas en el texto analizado, excluyendo las stopwords.
 
-**Español:**
-Esta versión beta del código de clasificación de texto se basa en la versión anterior, añadiendo nuevas características y mejoras. Ahora incluye una interfaz gráfica de usuario (GUI) utilizando Tkinter, permite a los usuarios analizar el sentimiento de archivos de texto e incorpora funcionalidades adicionales de procesamiento de lenguaje natural (NLP), como el análisis de frecuencia de palabras y el filtrado de palabras vacías (stopwords). Los resultados se muestran en un gráfico de barras que muestra el porcentaje de sentimientos positivos y negativos en el texto.
+## Versiones
 
-## Notes / Notas
+### Beta v1.0.0
+En esta versión beta del chatbot, se han añadido características avanzadas y una interfaz gráfica mejorada para facilitar la interacción del usuario.
 
-**Improvements over Alpha Version / Mejoras sobre la Versión Alpha:**
-1. **Graphical User Interface (GUI):** The Beta version introduces a Tkinter GUI for a more user-friendly experience.
-   - **Interfaz Gráfica de Usuario (GUI):** La versión Beta introduce una GUI de Tkinter para una experiencia más amigable para el usuario.
-2. **Text File Analysis:** Users can select and analyze sentiment from text files.
-   - **Análisis de Archivos de Texto:** Los usuarios pueden seleccionar y analizar el sentimiento de archivos de texto.
-3. **Word Frequency Analysis:** The code now includes functionality to count word frequency and identify the most used word.
-   - **Análisis de Frecuencia de Palabras:** El código ahora incluye la funcionalidad para contar la frecuencia de palabras e identificar la palabra más utilizada.
-4. **Stopwords Filtering:** The Beta version filters out common stopwords to improve the accuracy of word frequency analysis.
-   - **Filtrado de Palabras Vacías:** La versión Beta filtra las palabras vacías comunes para mejorar la precisión del análisis de frecuencia de palabras.
-5. **Sentiment Results Visualization:** Sentiment analysis results are visualized using a bar chart.
-   - **Visualización de Resultados de Sentimiento:** Los resultados del análisis de sentimiento se visualizan utilizando un gráfico de barras.
+#### Funcionalidades Iniciales
+- **Carga de Datos de Entrenamiento:** El programa abre un archivo JSON y carga los datos de entrenamiento, que se espera que estén en formato de lista de diccionarios con claves 'text' y 'label'.
+- **Formateo de Datos:** Convierte los datos de entrenamiento en una lista de tuplas (texto, etiqueta), que es el formato requerido por el clasificador de Naive Bayes de textblob.
+- **Entrenamiento del Clasificador:** Crea y entrena un clasificador de Naive Bayes utilizando los datos formateados.
+- **Interfaz Gráfica de Usuario:** Crea una ventana de Kivy con botones que permiten al usuario cargar archivos de texto y datos de entrenamiento, y realizar análisis.
+- **Análisis y Clasificación de Textos:** Tokeniza el texto en oraciones y palabras, filtra las stopwords, y clasifica cada oración como positiva o negativa.
+- **Visualización de Resultados:** Muestra un gráfico de barras con los porcentajes de oraciones positivas y negativas, y muestra las palabras más mencionadas en el texto.
 
-## Usage / Uso
+#### Errores Conocidos
+- **Problemas de Codificación:** Si el archivo JSON o el archivo de texto no están codificados en UTF-8, podría causar errores al intentar cargar los datos.
+- **Estructura del Archivo JSON:** Si el archivo JSON no tiene la estructura esperada (lista de diccionarios con claves 'text' y 'label'), el programa fallará al intentar formatear los datos.
+- **Dependencia de NLTK:** El código depende de que ciertos recursos de NLTK, como las stopwords, estén descargados previamente, lo que podría causar problemas si no se han descargado.
+- **Limitaciones del Clasificador:** La precisión del clasificador depende en gran medida de la calidad y cantidad de los datos de entrenamiento. Si los datos de entrenamiento no están equilibrados o son insuficientes, el clasificador podría no funcionar correctamente.
+- **Interfaz de Usuario:** La interfaz gráfica es básica y podría mejorarse para manejar mejor errores, como la cancelación de la selección de archivos o la carga de archivos no válidos.
 
-1. Make sure you have the required libraries installed:
-   ```bash
-   pip install textblob nltk matplotlib tkinter
+---
 
+# DATAPAN
+
+## Description
+This application was created based on a need that many companies ignore: understanding public opinion about their brand or products. The purpose of the algorithm is to provide a simple and effective tool to classify customer opinions as positive or negative. This allows companies to build a closer relationship with their clientele, representing long-term gains for the business.
+
+## Features
+- **Sentiment Classification:** The code is designed to classify texts as "positive" or "negative" using a Naive Bayes classifier.
+- **Training with Pre-labeled Data:** Uses a set of pre-labeled data stored in a JSON file to train the classifier.
+- **Graphical User Interface (GUI) with Kivy:** Uses Kivy to provide a graphical user interface for loading text files and displaying results.
+- **Results Visualization:** Generates a bar chart to show the percentage of positive and negative sentences in the analyzed text.
+- **Word Frequency Analysis:** Identifies and displays the most mentioned words in the analyzed text, excluding stopwords.
+
+## Versions
+
+### Beta v1.0.0
+In this beta version of the chatbot, advanced features have been added and an improved graphical interface has been created to facilitate user interaction.
+
+#### Initial Features
+- **Training Data Loading:** The program opens a JSON file and loads the training data, which is expected to be in the format of a list of dictionaries with keys 'text' and 'label'.
+- **Data Formatting:** Converts the training data into a list of tuples (text, label), which is the format required by the textblob Naive Bayes classifier.
+- **Classifier Training:** Creates and trains a Naive Bayes classifier using the formatted data.
+- **Graphical User Interface:** Creates a Kivy window with buttons that allow the user to load text files and training data, and perform analysis.
+- **Text Analysis and Classification:** Tokenizes the text into sentences and words, filters out stopwords, and classifies each sentence as positive or negative.
+- **Results Visualization:** Displays a bar chart with the percentages of positive and negative sentences, and shows the most mentioned words in the text.
+
+#### Known Issues
+- **Encoding Issues:** If the JSON file or the text file is not encoded in UTF-8, it may cause errors when trying to load the data.
+- **JSON File Structure:** If the JSON file does not have the expected structure (list of dictionaries with 'text' and 'label' keys), the program will fail when trying to format the data.
+- **NLTK Dependency:** The code depends on certain NLTK resources, such as stopwords, being downloaded beforehand, which could cause issues if they are not downloaded.
+- **Classifier Limitations:** The accuracy of the classifier depends largely on the quality and quantity of the training data. If the training data is unbalanced or insufficient, the classifier may not work correctly.
+- **User Interface:** The graphical interface is basic and could be improved to better handle errors, such as canceling file selection or loading invalid files.
+  
+--- 
+
+## Project Developer
+Amilkar Moreno
