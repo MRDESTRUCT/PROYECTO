@@ -66,5 +66,4 @@ In this beta version of the chatbot, advanced features have been added and an im
   
 --- 
 
-## Project Developer
-Amilkar Moreno
+**Responsable del proyecto** : Amilkar Moreno
